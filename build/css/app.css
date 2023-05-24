@@ -38,11 +38,11 @@ body {
   list-style: none;
 }
 .header .header__nav ul li a {
-  text-decoration: none;
-  color: #fef2dc;
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #fef2dc;
   transition: 0.25s;
 }
 @keyframes underlineAnimation {
@@ -68,7 +68,7 @@ body {
   bottom: -3px;
   width: 0;
   height: 3px;
-  background-color: #e8cda5;
+  background-color: #fef2dc;
   animation-name: underlineAnimation;
   animation-duration: 0.25s;
   animation-timing-function: linear;

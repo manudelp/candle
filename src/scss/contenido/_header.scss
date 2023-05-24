@@ -30,11 +30,11 @@
             li {
                 list-style: none;
                 a {
-                    text-decoration: none;
-                    color: v.$papaya-whip;
+                    font-family: v.$titulo;
                     font-size: 2rem;
                     text-transform: uppercase;
-                    font-family: v.$titulo;
+                    text-decoration: none;
+                    color: v.$papaya-whip;
                     transition: .25s;
                 }
 
@@ -63,7 +63,7 @@
                     bottom: -3px;
                     width: 0;
                     height: 3px;
-                    background-color: v.$sunset;
+                    background-color: v.$papaya-whip;
                     animation-name: underlineAnimation;
                     animation-duration: .25s;
                     animation-timing-function: linear;
