@@ -1,0 +1,43 @@
+// Conexiones
+@use 'base/variables' as v;
+
+// Call to action
+.cta {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+    .carousel {
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .cta__info {
+        height: 100%;
+        width: 100%;
+        padding: 4rem;
+        border: 2rem solid v.$sunset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+
+
+    .cta__info button {
+        border: none;
+        padding: 2rem;
+        width: 100%;
+        font-size: 1.6rem;
+        color: v.$papaya-whip;
+        background-color: v.$earth;
+    }
+}
